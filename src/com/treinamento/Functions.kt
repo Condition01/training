@@ -1,5 +1,6 @@
 package com.treinamento
 
+import com.sun.org.apache.xalan.internal.lib.ExsltDynamic.max
 import java.util.stream.Stream
 
 fun main() {
@@ -23,7 +24,8 @@ fun main() {
 //
 //    println(findFixPoint())
 
-    println(powerOf(2, 3 ))
+//    println(powerOf(2, 3 ))
+//
 
 }
 

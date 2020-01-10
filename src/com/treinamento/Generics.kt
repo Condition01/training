@@ -4,6 +4,14 @@ fun main(){
     var t = Text("Carlão")
     var c = compare()
     demo(c)
+
+    var oi = oiPai(1, 2 )
+    println(oi)
+}
+
+
+fun oiPai(a : Int, b: Int) : Int{
+    return a + b
 }
 
 interface Source<out T> {

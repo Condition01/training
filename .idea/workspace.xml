@@ -16,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W9wWD4tVAtU3p21SITw3d22DTA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../samples/yo-cordapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Kotlin.com.treinamento.LambdaFunctionsKt">
     <configuration name="com.treinamento.FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -108,21 +111,25 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578590947245" />
-    <state width="1320" height="136" key="GridCell.Tab.0.bottom" timestamp="1578596074084">
-      <screen x="0" y="27" width="1366" height="676" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1578619259506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578619259506" />
     <state width="1320" height="136" key="GridCell.Tab.0.bottom/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578596074084" />
-    <state width="1320" height="136" key="GridCell.Tab.0.center" timestamp="1578596074084">
-      <screen x="0" y="27" width="1366" height="676" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1578619259506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578619259506" />
     <state width="1320" height="136" key="GridCell.Tab.0.center/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578596074084" />
-    <state width="1320" height="136" key="GridCell.Tab.0.left" timestamp="1578596074084">
-      <screen x="0" y="27" width="1366" height="676" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1578619259506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578619259506" />
     <state width="1320" height="136" key="GridCell.Tab.0.left/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578596074084" />
-    <state width="1320" height="136" key="GridCell.Tab.0.right" timestamp="1578596074084">
-      <screen x="0" y="27" width="1366" height="676" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1578619259506">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578619259506" />
     <state width="1320" height="136" key="GridCell.Tab.0.right/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578596074084" />
     <state width="1320" height="193" key="GridCell.Tab.1.bottom" timestamp="1578595865696">
       <screen x="0" y="27" width="1366" height="676" />
@@ -144,9 +151,14 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="339" y="191" key="com.intellij.ide.util.TipDialog/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578575304838" />
-    <state x="379" y="27" width="598" height="676" key="refactoring.ChangeSignatureDialog" timestamp="1578579908882">
-      <screen x="0" y="27" width="1366" height="676" />
+    <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1578618861489">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="657" y="118" width="606" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578618861489" />
+    <state x="533" y="0" width="598" height="676" key="refactoring.ChangeSignatureDialog" timestamp="1578617508474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="0" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578617508474" />
     <state x="379" y="27" width="598" height="676" key="refactoring.ChangeSignatureDialog/0.27.1366.676/1366.0.1360.768@0.27.1366.676" timestamp="1578579908882" />
   </component>
   <component name="XDebuggerManager">
@@ -156,6 +168,14 @@
           <url>file://$PROJECT_DIR$/src/com/treinamento/Generics.kt</url>
           <line>3</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/com/treinamento/Functions.kt</url>
+          <line>5</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
