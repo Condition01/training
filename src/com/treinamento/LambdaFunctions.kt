@@ -60,29 +60,45 @@ fun main() {
 //
 //    list.filter { it > 2 }.forEach{print(it)}
 
-    var u = list.filter {
+//    var u = list.filter {
+//        val shouldFilter = it > 0
+//        shouldFilter
+//    }
+//
+//
+//    var person = Person("Carlão", 22)
+//    var person2 = Person("Maria", 21)
+//    var person3 = Person("Adalberto", 20)
+//
+//    var (nome,idade) = person
+//
+//    println("O nome é $nome e a idade é $idade")
+
+    changeValue(20)
+
+    var ints = listOf(-1,0,2,4)
+
+    println(ints.filter {
         val shouldFilter = it > 0
-        shouldFilter
-    }
+        return@filter shouldFilter
+    })
 
+    var c : (List<Int>) -> Int = ::theLastNumber
 
-    var person = Person("Carlão", 22)
-    var person2 = Person("Maria", 21)
-    var person3 = Person("Adalberto", 20)
+    println(c(ints))
 
-    var (nome,idade) = person
-
-    println("O nome é $nome e a idade é $idade")
 }
+
+fun theLastNumber(list : List<Int>): Int { return list.get(list.lastIndex) }
+
 
 data class Person(var nome : String, var idade : Int)
 
-
+fun changeValue(i : Int) : (Int) -> Int = { i* 2 }
 
 
 fun testeNumber(value: Int) {
     println(value.plus(1))
-
 }
 
 class IntTransformer : (Int) -> Int {
